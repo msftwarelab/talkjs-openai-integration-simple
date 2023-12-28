@@ -5,7 +5,7 @@ FROM node:18.16-buster-slim
 COPY . ./app
 
 # Work to Dir
-WORKDIR /app
+WORKDIR /usr/src/app
 
 # Install Node Package
 RUN npm install --legacy-peer-deps
